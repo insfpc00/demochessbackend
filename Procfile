@@ -1,1 +1,1 @@
-web: java -jar target/demo-0.0.1-SNAPSHOT.war initDb
+web: java -jar target/demo.minichess-0.0.1-SNAPSHOT.jar initDb
