@@ -12,7 +12,7 @@ public class StockFishClient extends UCIClient{
 	
 	public StockFishClient(StockFishVariant variant,Optional<Long> depth, Optional<Long> moveTime ,String path,String extension,UCIConfigOption ... options) {
 		super(depth,moveTime,options);
-		pathToStockFish=path + variant.getSuffix()+"."+extension;
+		pathToStockFish=path + variant.getSuffix()+extension;
 	}
 
 	@Override
