@@ -20,7 +20,7 @@ Requires Java 11 and Maven 3.x to run.
 
 Straight with Maven:
 
-_If you are using Windows you should edit `src/main/resources/application.properties` and uncomment the marked Stockfish config lines_
+_If you are using Windows you should edit `src/main/resources/application.properties` and uncomment the annotated Stockfish config lines_
 
 ```sh
 $ mvn clean spring-boot:run -Dspring-boot.run.arguments="initDb"
